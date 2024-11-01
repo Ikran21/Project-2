@@ -1,0 +1,77 @@
+.button{
+    background-color: aqua;
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    font-size: 16px;
+
+}
+.container{
+    display: flex;
+}
+
+body{
+    background-color: rgb(13, 13, 77);
+}
+
+
+.box1{
+    background-image: url(homebackground.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 80;
+    
+    
+}
+
+.box2{
+    height: 12%;
+    width: 100%;
+    background-color: burlywood;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#opt1{
+    background-color: rgb(20, 20, 91);
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    font-size: 25px;
+    position: absolute;
+    left: 250;
+     
+      
+}
+
+#opt2{
+    background-color: rgb(20, 20, 87);
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    font-size: 25px;
+    position: absolute;
+    left: 650;
+    text-align: center;
+}
+
+#opt3{
+    background-color: rgb(15, 15, 69);
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    font-size: 25px; 
+    position: absolute;
+    right: 250
+    
+    
+}
+
+
+
