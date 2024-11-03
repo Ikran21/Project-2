@@ -18,7 +18,7 @@ body{
 .box1{
     background-image: url(homebackground.png); 
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: absolute;
     left: 0;
     right: 0;
