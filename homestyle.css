@@ -1,3 +1,9 @@
+#Back{
+     text-align: left;
+     
+}
+
+
 .button{
     background-color: aqua;
     border: none;
@@ -77,9 +83,17 @@ header{
     padding: 15px 32px;
     font-size: 25px; 
     position: absolute;
-    right: 250
+    right: 250;  
+}
+
+#opt4{
+    background-color:  burlywood;
+    border: none;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 15px 32px;
     
-    
+
 }
 
 
