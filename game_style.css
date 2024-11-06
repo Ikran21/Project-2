@@ -1,0 +1,96 @@
+/* style.css */
+
+body {
+    background-image: url(game_background.png);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+
+.game-container {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    width: 800px;
+    padding-top: 50px;
+
+}
+
+.question-box {
+    background-color:  #673ab7;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.option {
+    background-color: #673ab7;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #9575cd;
+}
+
+button {
+    background-color: #673ab7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #9575cd;
+}
+
+.lifelines {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.lifeline {
+    background-color: #d4a941;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.lifeline:hover {
+    background-color: #d4a941;
+}
+
+
+
+.scoreboard{
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    right: 10px;
+}
+.score-container{
+    margin-top: 50px;
+    background-color: #d4a941;
+}
