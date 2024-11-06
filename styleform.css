@@ -125,5 +125,20 @@ form button:hover {
     color: white;  /* Slightly lighter blue on hover */
 }
 
+.game-over-container{
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    
+}
+
+.game-over-container .button{
+    background-color: #d4a941; 
+    
+}
+
+
+
 
 
