@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     echo "<div class='error-container'>
     <img src='gamelogo.png' alt='Game Logo' class='error-logo'>
     <div class='error-message'>
-        Incorrect Passwoord or Username<a href='loginn.php' class='link'>Try Again</a>
+        Incorrect Passwoord or Username<a href='login.php' class='link'>Try Again</a>
     </div>
   </div>";
 } else {
