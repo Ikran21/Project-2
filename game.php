@@ -71,7 +71,8 @@
         [
             "question" => "What is the chemical symbol for gold?",
             "options" => ["Au", "Ag", "Pb", "Fe"],
-            "correct" => 100000
+            "correct" => 0,
+            "points" => 100000
         ],
         [
             "question" => "Which planet is known as the 'Red Planet'?",
