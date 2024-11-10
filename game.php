@@ -135,7 +135,7 @@
                 exit;
             }
         } else {
-            $_SESSION['points'] == 0;
+            $_SESSION['points'] = 0;
             header("Location: gameover.php?score=" . $_SESSION['points']);
             exit;
         }
