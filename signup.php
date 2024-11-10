@@ -9,7 +9,7 @@
     <div class="form-wrapper">
         <img src="gamelogo.png" alt="Who Wants to Be a Millionaire Logo" class="logo">
         <h2>Signup</h2>
-        <a href="homepage.html" class="home-button">Back to Homepage</a>
+        <a href="Homepage.html" class="home-button">Back to Homepage</a>
         <form action="signup-submit.php" method="POST">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
