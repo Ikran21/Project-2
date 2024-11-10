@@ -33,7 +33,7 @@ body {
 
 /* Form container */
 form {
-    background-color: #d4a941; /* Golden color */
+    background-color: #d4a941; 
     padding: 20px;
     border-radius: 8px;
     width: 100%;
@@ -54,7 +54,7 @@ form label {
     text-align: left;
     font-weight: bold;
     margin: 15px 0 5px;
-    color: white; /* Dark blue text */
+    color: white; 
 }
 
 /* Input fields */
@@ -65,7 +65,7 @@ form input[type="password"] {
     margin-bottom: 10px;
     border: 1px solid #555;
     border-radius: 5px;
-    background: #1a1a6b; /* Dark blue */
+    background: #1a1a6b; 
     color: #fff;
     font-size: 16px;
 }
