@@ -9,6 +9,7 @@ session_start();
     <link rel="stylesheet" href="styleform.css">
 </head>
 <body>
+    <a href="homepage.html" class="home-button">Back to Homepage</a>
     <div class="form-wrapper">
         <img src="gamelogo.png" alt="Who Wants to Be a Millionaire Logo" class="logo">
         <h2>Login</h2>

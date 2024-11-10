@@ -135,7 +135,18 @@ form button:hover {
 
 .game-over-container .button{
     background-color: #d4a941; 
-    
+}
+.home-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: #d4a941;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 

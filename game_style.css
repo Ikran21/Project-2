@@ -77,12 +77,13 @@ button:hover {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+.link{
+    text-decoration: none; 
+    margin-top: 10px;
+}
 .lifeline:hover {
     background-color: #d4a941;
 }
-
-
 
 .scoreboard{
     position: absolute;
@@ -93,4 +94,23 @@ button:hover {
 .score-container{
     margin-top: 50px;
     background-color: #d4a941;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.logout{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    margin-top: 50px;
+    background-color: #d4a941;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
