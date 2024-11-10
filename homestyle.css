@@ -33,7 +33,7 @@ header{
 .box1{
     background-image: url(homebackground.png); 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     position: absolute;
     left: 0;
     right: 0;
