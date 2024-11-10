@@ -81,9 +81,6 @@ button:hover {
     text-decoration: none; 
     margin-top: 10px;
 }
-.lifeline:hover {
-    background-color: #d4a941;
-}
 
 .scoreboard{
     position: absolute;
